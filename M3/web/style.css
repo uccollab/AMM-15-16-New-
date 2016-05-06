@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-mag-2016, 16.12.00
+    Author     : Simone Balloccu
+*/
+
+@font-face
+{
+    font-family:'Ubuntu';
+    src: url('Fonts/Ubuntu/Ubuntu-Regular.ttf')format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body
+{
+    background-color: white;
+    background-attachment: fixed;
+    font-family: Ubuntu,'Times New Roman',san-serif;
+    font-style: normal;
+    text-align: justify;
+    color:black;
+}
+
+h1,h2,h3
+{
+    font-family: Ubuntu,'Times New Roman',san-serif;
+    font-style: normal;
+    text-align: center;
+    color:#FF3333;
+    
+}
+a:active 
+{
+    background-color: #FF3333;
+}
+a:visited 
+{
+    color: #FF3333;
+}
+table 
+{
+    width: 100%;
+    border-collapse: collapse
+    
+}
+th
+{
+    color: white;
+    font-weight:bold;
+    height: 45px;
+    text-align: left;
+    padding:15px;
+}
+
+td
+{
+    color: black;
+    text-align: left;
+    padding:15px;
+    
+}
+tr:nth-child(even) {background-color: #f2f2f2}
+tr.intestazione
+{
+    background-color:#FF3333;
+}
+td.descrizione
+{
+    width:35%;
+}
+td.pezzi
+{
+    width:5%;
+}
+input
+{
+    border:1px solid black;
+    border-radius: 6px;
+    padding:5px;
+    background-color: #e6e6e6;
+    color: black;
+    width:10%;
+    margin:5px;
+    text-align: left;
+}
+
+input[type=submit]
+{ 
+    border:0px;
+    border-radius: 6px;
+    background-color: #FF3333;
+    color: white;
+    padding: 5px;
+    width:5%;
+}
+
+input:focus 
+{
+    background-color:#FF3333 ;
+    display:inline-block;
+}
+
+label
+{
+    display: block;
+    text-align:center;
+    width: 100%;
+}
+
+div.login
+{
+   text-align: center;
+}
+
+div.venditore
+{
+   text-align: center;
+}
+
+div.content
+{
+   text-align: center;
+}
+
+ul
+{
+    list-style: none;
+    padding-left: 0;
+    text-align:center;
+    
+}
+form.venditore
+{
+    
+}
+div.needlogin
+{
+    text-align: center;
+}
+
+div.intro
+{
+    text-align: center;
+}
+div.headerdiv
+{
+    display: inline-block; 
+    text-align:left;
+}
+img.headerlogo
+{
+    padding:20px;
+}
+h6.header
+{
+    margin: 0;
+}
+ul.header
+{
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    position:relative;
+    left:30px;
+    bottom:60px;
+}
+li.header 
+{
+    display: inline; 
+    padding: 5px 20px;
+}
+
+a.header 
+{
+    text-decoration:none; 
+    color: white;
+    padding:5px;
+    border:1px solid #FF3333;
+    background:#FF3333;
+    text-align:center;
+}
+
+header
+{
+    background:#e6e6e6;
+}
+
+footer
+{  
+    position:inherit;
+    text-align:center;
+    float:bottom;
+}
+
+#sidebar
+{
+    float:left;
+    background:#FF3333;
+    width:14%;
+    height:1025px;
+    padding:5px;
+}
+#content
+{
+    float:right;
+    width:85%
+}
+
+div.indice
+{
+    text-align:center;
+}
+
+#page
+{
+    background:#e6e6e6
+}
+@media only screen and (min-width: 1024px)
+{
+ /*il sito utilizza già un layout a 2 colonne*/
+}
+@media only screen and (max-width: 480px)
+{
+  #sidebar
+  {
+      visibility: hidden;
+  }
+}
